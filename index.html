@@ -6,11 +6,16 @@
     <title>TOP_css-final-project</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Roboto:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
   </head>
   <body>
     <div class="container">
       <div class="header">
-        <div class="header-home">Header Logo</div>
+        <div class="header-logo">Header Logo</div>
         <div class="header-links">
           <a href="#">header link one</a>
           <a href="#">header link two</a>
@@ -24,23 +29,37 @@
             This website has some subtext that goes here under the main title.
             It's a smaller font and the color is lower contrast
           </div>
-          <button class="hero-button">Sign up</button>
+          <button class="button hero-button">Sign up</button>
         </div>
         <div class="hero-right">
-          <div class="hero-image-container">
-            <img
-              class="hero-image"
-              src=""
-              alt="this is a placeholder for an image"
-            />
+          <div class="hero-image-placeholder">
+            this is a placeholder for an image
           </div>
         </div>
       </div>
-      <div class="boxes-container">
-        <div class="boxes-heading">Some random information.</div>
+      <div class="info">
+        <div class="info-heading">Some random information.</div>
         <div class="boxes">
           <div class="box">
-            <img class="box-image" src="" />
+            <img class="box-image-placeholder" src="" />
+            <div class="box-subtext">
+              this is some subtext under an illustration or image
+            </div>
+          </div>
+          <div class="box">
+            <img class="box-image-placeholder" src="" />
+            <div class="box-subtext">
+              this is some subtext under an illustration or image
+            </div>
+          </div>
+          <div class="box">
+            <img class="box-image-placeholder" src="" />
+            <div class="box-subtext">
+              this is some subtext under an illustration or image
+            </div>
+          </div>
+          <div class="box">
+            <img class="box-image-placeholder" src="" />
             <div class="box-subtext">
               this is some subtext under an illustration or image
             </div>
@@ -53,20 +72,24 @@
           it's just filling up space, or maybe people will actually read it. Who
           knows? All I know is that it looks nice.
         </div>
-        <div class="author">-Thor, God of Thunder</div>
+        <div class="quote-author">-Thor, God of Thunder</div>
       </div>
-      <div class="cta">
-        <div class="cta-left">
-          <div class="cta-heading">Call to action! It's time!</div>
-          <div class="cta-content">
-            Sign up for our product by clicking that button right over there!
+      <div class="cta-container">
+        <div class="cta">
+          <div class="cta-left">
+            <div class="cta-heading">Call to action! It's time!</div>
+            <div class="cta-content">
+              Sign up for our product by clicking that button right over there!
+            </div>
+          </div>
+          <div class="cta-right">
+            <button class="button cta-button">Sign up</button>
           </div>
         </div>
-        <div class="cta-right">
-          <button class="cta-button">Sign up</button>
-        </div>
       </div>
-      <div class="footer">Copyright The Odin Project 2023</div>
+      <div class="footer">
+        <div class="footer-content">Copyright The Odin Project 2023</div>
+      </div>
     </div>
   </body>
 </html>
