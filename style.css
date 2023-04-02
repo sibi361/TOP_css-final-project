@@ -50,8 +50,7 @@ a {
   padding: 0 25%;
 }
 
-.header,
-.hero,
+.container-header-and-hero,
 .footer {
   background-color: #1d2937;
 }
@@ -124,6 +123,7 @@ a {
 .boxes {
   gap: 96px;
   text-align: center;
+  justify-content: space-around;
 }
 
 .box-image-placeholder {
@@ -198,4 +198,63 @@ a {
   font-size: 18px;
 
   color: #d1d3d5;
+}
+
+@media (max-width: 500px) {
+  .header,
+  .hero,
+  .boxes,
+  .cta,
+  .footer {
+    flex-direction: column;
+  }
+
+  .header {
+    margin-bottom: 40px;
+  }
+  .header-logo {
+    margin: 20px;
+  }
+
+  .hero {
+    padding-top: 20%;
+    padding-bottom: 16%;
+  }
+
+  .hero-button {
+    margin-top: 16px;
+  }
+  .info {
+    padding-top: 12%;
+    padding-bottom: 12%;
+  }
+
+  .boxes {
+    gap: 48px;
+  }
+
+  .box-image-placeholder {
+    padding: 50%;
+  }
+
+  .quote {
+    background-color: #e5e7eb;
+    padding: 12%;
+  }
+
+  .quote-content {
+    font-size: 24px;
+  }
+
+  .quote-author {
+    font-size: 24px;
+  }
+
+  .cta-container {
+    padding: 12%;
+  }
+
+  .cta-right {
+    margin: 10px 0;
+  }
 }
